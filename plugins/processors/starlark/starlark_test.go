@@ -14,11 +14,11 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	common "github.com/influxdata/telegraf/plugins/common/starlark"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	common "github.com/XenoStar123/telegraf/plugins/common/starlark"
+	"github.com/XenoStar123/telegraf/plugins/parsers/influx"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 // Tests for runtime errors in the processors Init function.

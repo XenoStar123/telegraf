@@ -8,7 +8,7 @@ This section is for developers who want to create a new processor plugin.
 * Processors should call `processors.Add` in their `init` function to register
   themselves.  See below for a quick example.
 * To be available within Telegraf itself, plugins must register themselves
-  using a file in `github.com/influxdata/telegraf/plugins/processors/all`
+  using a file in `github.com/XenoStar123/telegraf/plugins/processors/all`
   named according to the plugin name. Make sure your also add build-tags to
   conditionally build the plugin.
 * Each plugin requires a file called `sample.conf` containing the sample
@@ -32,8 +32,8 @@ import (
     _ "embed"
     "fmt"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/processors"
+    "github.com/XenoStar123/telegraf"
+    "github.com/XenoStar123/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf
@@ -73,7 +73,7 @@ Registration of the plugin on `plugins/processors/all/printer.go`:
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/processors/printer" // register plugin
+import _ "github.com/XenoStar123/telegraf/plugins/processors/printer" // register plugin
 ```
 
 The _build-tags_ in the first line allow to selectively include/exclude your
@@ -109,8 +109,8 @@ import (
     _ "embed"
     "fmt"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/processors"
+    "github.com/XenoStar123/telegraf"
+    "github.com/XenoStar123/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf
@@ -171,7 +171,7 @@ func init() {
 }
 ```
 
-[Sample Config]: https://github.com/influxdata/telegraf/blob/master/docs/developers/SAMPLE_CONFIG.md
-[Code Style]: https://github.com/influxdata/telegraf/blob/master/docs/developers/CODE_STYLE.md
-[telegraf.Processor]: https://godoc.org/github.com/influxdata/telegraf#Processor
-[telegraf.StreamingProcessor]: https://godoc.org/github.com/influxdata/telegraf#StreamingProcessor
+[Sample Config]: https://github.com/XenoStar123/telegraf/blob/master/docs/developers/SAMPLE_CONFIG.md
+[Code Style]: https://github.com/XenoStar123/telegraf/blob/master/docs/developers/CODE_STYLE.md
+[telegraf.Processor]: https://godoc.org/github.com/XenoStar123/telegraf#Processor
+[telegraf.StreamingProcessor]: https://godoc.org/github.com/XenoStar123/telegraf#StreamingProcessor

@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/selfstat"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/selfstat"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 var first5 = []telegraf.Metric{

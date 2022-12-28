@@ -19,15 +19,15 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	_ "github.com/influxdata/telegraf/plugins/parsers/all" // Blank import to have all parsers for testing
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/models"
+	"github.com/XenoStar123/telegraf/plugins/common/tls"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
+	_ "github.com/XenoStar123/telegraf/plugins/parsers/all" // Blank import to have all parsers for testing
+	"github.com/XenoStar123/telegraf/plugins/parsers/json"
+	"github.com/XenoStar123/telegraf/plugins/processors"
 )
 
 func TestReadBinaryFile(t *testing.T) {

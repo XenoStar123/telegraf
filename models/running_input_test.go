@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/XenoStar123/telegraf/selfstat"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

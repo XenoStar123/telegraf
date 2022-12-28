@@ -5,9 +5,9 @@ import (
 	_ "embed"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/plugins/aggregators"
 )
 
 //go:embed sample.conf

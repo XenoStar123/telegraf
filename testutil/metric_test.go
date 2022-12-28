@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/metric"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
 )
 
 func TestRequireMetricEqual(t *testing.T) {

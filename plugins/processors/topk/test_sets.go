@@ -3,8 +3,8 @@ package topk
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/metric"
 )
 
 // /// Test set 1 /////

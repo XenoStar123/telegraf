@@ -3,9 +3,9 @@ package parsers
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers/temporary/json_v2"
-	"github.com/influxdata/telegraf/plugins/parsers/temporary/xpath"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/parsers/temporary/json_v2"
+	"github.com/XenoStar123/telegraf/plugins/parsers/temporary/xpath"
 )
 
 // Creator is the function to create a new parser

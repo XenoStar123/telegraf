@@ -12,11 +12,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/internal"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
 )
 
 var secrets = map[string]map[string][]byte{

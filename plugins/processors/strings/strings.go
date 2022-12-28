@@ -8,8 +8,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/processors"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

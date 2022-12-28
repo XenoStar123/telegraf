@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 func TestNewMetric(t *testing.T) {

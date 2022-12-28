@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/influxdata/telegraf/internal/choice"
+	"github.com/XenoStar123/telegraf/internal/choice"
 )
 
 const TLSMinVersionDefault = tls.VersionTLS12

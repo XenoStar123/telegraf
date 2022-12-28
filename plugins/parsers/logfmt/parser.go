@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/filter"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
 	"github.com/go-logfmt/logfmt"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
 )
 
 var ErrNoMetric = errors.New("no metric in line")

@@ -8,7 +8,7 @@ import (
 
 	"github.com/99designs/keyring"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/XenoStar123/telegraf/config"
 )
 
 //go:embed sample_darwin.conf

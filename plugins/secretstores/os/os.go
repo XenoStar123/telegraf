@@ -8,9 +8,9 @@ import (
 	"fmt"
 
 	"github.com/99designs/keyring"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/secretstores"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/plugins/secretstores"
 )
 
 type OS struct {

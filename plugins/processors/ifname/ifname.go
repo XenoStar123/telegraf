@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/snmp"
-	"github.com/influxdata/telegraf/plugins/common/parallel"
-	si "github.com/influxdata/telegraf/plugins/inputs/snmp"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/internal/snmp"
+	"github.com/XenoStar123/telegraf/plugins/common/parallel"
+	si "github.com/XenoStar123/telegraf/plugins/inputs/snmp"
+	"github.com/XenoStar123/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf

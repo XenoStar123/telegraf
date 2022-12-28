@@ -3,8 +3,8 @@ package kafka
 import (
 	"github.com/Shopify/sarama"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/models"
 )
 
 type Logger struct {

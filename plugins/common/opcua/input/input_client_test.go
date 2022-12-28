@@ -2,12 +2,12 @@ package input
 
 import (
 	"fmt"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/plugins/common/opcua"
+	"github.com/XenoStar123/telegraf/testutil"
 	"github.com/gopcua/opcua/ua"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/common/opcua"
-	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 	"testing"
 	"time"

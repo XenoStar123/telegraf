@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/file"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
+	"github.com/XenoStar123/telegraf/plugins/inputs/file"
+	"github.com/XenoStar123/telegraf/plugins/parsers/influx"
+	"github.com/XenoStar123/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/prometheus/common/expfmt"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 // TimestampExport controls if the output contains timestamps.

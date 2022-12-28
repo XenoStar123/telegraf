@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

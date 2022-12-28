@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 func TestInputShimTimer(t *testing.T) {

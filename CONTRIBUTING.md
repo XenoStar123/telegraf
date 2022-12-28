@@ -106,8 +106,8 @@ make test-all
 - [Code of Conduct][code of conduct]
 
 [cla]: https://www.influxdata.com/legal/cla/
-[new issue]: https://github.com/influxdata/telegraf/issues/new/choose
-[pull request]: https://github.com/influxdata/telegraf/compare
+[new issue]: https://github.com/XenoStar123/telegraf/issues/new/choose
+[pull request]: https://github.com/XenoStar123/telegraf/compare
 [inputs]: /docs/INPUTS.md
 [processors]: /docs/PROCESSORS.md
 [aggregators]: /docs/AGGREGATORS.md

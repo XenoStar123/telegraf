@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
 	clockutil "github.com/benbjohnson/clock"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
 )
 
 type CookieAuthConfig struct {

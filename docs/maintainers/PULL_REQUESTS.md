@@ -19,7 +19,7 @@ contributor to merge or rebase.
 
 ## Review
 
-[Review the pull request](https://github.com/influxdata/telegraf/blob/master/docs/developers/REVIEWS.md).
+[Review the pull request](https://github.com/XenoStar123/telegraf/blob/master/docs/developers/REVIEWS.md).
 
 ## Merge
 
@@ -57,7 +57,7 @@ commit message, keep this in the final message.
 
 ## After Merge
 
-[Update the Changelog](https://github.com/influxdata/telegraf/blob/master/docs/maintainers/CHANGELOG.md).
+[Update the Changelog](https://github.com/XenoStar123/telegraf/blob/master/docs/maintainers/CHANGELOG.md).
 
 If required, backport the patch and the changelog update to the current
 release branch.  Usually this can be done by cherry picking the commits:

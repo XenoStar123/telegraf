@@ -1,6 +1,6 @@
 [Unit]
 Description=Telegraf
-Documentation=https://github.com/influxdata/telegraf
+Documentation=https://github.com/XenoStar123/telegraf
 After=network-online.target
 Wants=network-online.target
 

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
 	"github.com/influxdata/line-protocol/v2/lineprotocol"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
 )
 
 const (

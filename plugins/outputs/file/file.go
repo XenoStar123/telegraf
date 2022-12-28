@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal/rotate"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/internal/rotate"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	"github.com/XenoStar123/telegraf/plugins/serializers"
 )
 
 //go:embed sample.conf

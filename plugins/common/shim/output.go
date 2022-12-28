@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/parsers/influx"
 )
 
 // AddOutput adds the input to the shim. Later calls to Run() will run this.

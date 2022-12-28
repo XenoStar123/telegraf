@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/XenoStar123/telegraf"
+	telegrafMetric "github.com/XenoStar123/telegraf/metric"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/telegraf"
-	telegrafMetric "github.com/influxdata/telegraf/metric"
 )
 
 type metricDiff struct {

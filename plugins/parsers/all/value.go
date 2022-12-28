@@ -2,4 +2,4 @@
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/parsers/value" // register plugin
+import _ "github.com/XenoStar123/telegraf/plugins/parsers/value" // register plugin

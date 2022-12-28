@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/fuzz"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal/fuzz"
+	"github.com/XenoStar123/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

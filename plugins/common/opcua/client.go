@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
 	"github.com/gopcua/opcua"
 	"github.com/gopcua/opcua/ua"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
 )
 
 type OpcUAWorkarounds struct {

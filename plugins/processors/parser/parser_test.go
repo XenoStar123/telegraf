@@ -6,15 +6,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/grok"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/plugins/parsers/logfmt"
-	"github.com/influxdata/telegraf/plugins/parsers/value"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
+	"github.com/XenoStar123/telegraf/plugins/parsers/grok"
+	"github.com/XenoStar123/telegraf/plugins/parsers/influx"
+	"github.com/XenoStar123/telegraf/plugins/parsers/json"
+	"github.com/XenoStar123/telegraf/plugins/parsers/logfmt"
+	"github.com/XenoStar123/telegraf/plugins/parsers/value"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 func TestApply(t *testing.T) {

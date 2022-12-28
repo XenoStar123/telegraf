@@ -5,7 +5,7 @@ package os
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/internal/choice"
+	"github.com/XenoStar123/telegraf/internal/choice"
 	"github.com/stretchr/testify/require"
 )
 

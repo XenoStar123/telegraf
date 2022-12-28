@@ -7,7 +7,7 @@ import (
 
 	"github.com/awnumar/memguard"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 // unlinkedSecrets contains the list of secrets that contain

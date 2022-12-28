@@ -7,11 +7,11 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/templating"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal/templating"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
+	"github.com/XenoStar123/telegraf/plugins/parsers/influx"
 )
 
 // Parser parses json inputs containing dropwizard metrics,

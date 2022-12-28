@@ -8,7 +8,7 @@ This section is for developers who want to create a new aggregator plugin.
 * Aggregators should call `aggregators.Add` in their `init` function to
   register themselves.  See below for a quick example.
 * To be available within Telegraf itself, plugins must register themselves
-  using a file in `github.com/influxdata/telegraf/plugins/aggregators/all`
+  using a file in `github.com/XenoStar123/telegraf/plugins/aggregators/all`
   named according to the plugin name. Make sure your also add build-tags to
   conditionally build the plugin.
 * Each plugin requires a file called `sample.conf` containing the sample configuration
@@ -35,8 +35,8 @@ package min
 import (
     _ "embed"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/aggregators"
+    "github.com/XenoStar123/telegraf"
+    "github.com/XenoStar123/telegraf/plugins/aggregators"
 )
 
 //go:embed sample.conf
@@ -133,13 +133,13 @@ Registration of the plugin on `plugins/aggregators/all/min.go`:
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/aggregators/min" // register plugin
+import _ "github.com/XenoStar123/telegraf/plugins/aggregators/min" // register plugin
 
 ```
 
 The _build-tags_ in the first line allow to selectively include/exclude your
 plugin when customizing Telegraf.
 
-[Sample Config]: https://github.com/influxdata/telegraf/blob/master/docs/developers/SAMPLE_CONFIG.md
-[Code Style]: https://github.com/influxdata/telegraf/blob/master/docs/developers/CODE_STYLE.md
-[telegraf.Aggregator]: https://godoc.org/github.com/influxdata/telegraf#Aggregator
+[Sample Config]: https://github.com/XenoStar123/telegraf/blob/master/docs/developers/SAMPLE_CONFIG.md
+[Code Style]: https://github.com/XenoStar123/telegraf/blob/master/docs/developers/CODE_STYLE.md
+[telegraf.Aggregator]: https://godoc.org/github.com/XenoStar123/telegraf#Aggregator

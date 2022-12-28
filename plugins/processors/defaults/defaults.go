@@ -5,8 +5,8 @@ import (
 	_ "embed"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/processors"
 )
 
 //go:embed sample.conf

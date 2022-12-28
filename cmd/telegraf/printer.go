@@ -7,12 +7,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/secretstores"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/aggregators"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	"github.com/XenoStar123/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf/plugins/secretstores"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 
 	jsonata "github.com/blues/jsonata-go"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/filter"
 )
 
 type FormatConfig struct {

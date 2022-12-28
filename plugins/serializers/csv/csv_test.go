@@ -10,8 +10,8 @@ import (
 	"github.com/influxdata/toml"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf/plugins/parsers/influx"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 func TestInvalidTimestampFormat(t *testing.T) {

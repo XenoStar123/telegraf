@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/testutil"
 	clockutil "github.com/benbjohnson/clock"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

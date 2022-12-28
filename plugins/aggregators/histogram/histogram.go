@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	telegrafConfig "github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/XenoStar123/telegraf"
+	telegrafConfig "github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/plugins/aggregators"
 )
 
 //go:embed sample.conf

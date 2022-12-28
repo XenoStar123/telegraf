@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	common "github.com/influxdata/telegraf/plugins/common/starlark"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/metric"
+	common "github.com/XenoStar123/telegraf/plugins/common/starlark"
+	"github.com/XenoStar123/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

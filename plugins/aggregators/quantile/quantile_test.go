@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

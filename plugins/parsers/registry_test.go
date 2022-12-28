@@ -9,10 +9,10 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	_ "github.com/influxdata/telegraf/plugins/parsers/all"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal/choice"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
+	_ "github.com/XenoStar123/telegraf/plugins/parsers/all"
 )
 
 func TestRegistry_BackwardCompatibility(t *testing.T) {

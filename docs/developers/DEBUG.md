@@ -72,7 +72,7 @@ The following is an example debug config to run Telegraf with a config:
     <working_directory value="$PROJECT_DIR$" />
     <parameters value="--config telegraf.conf" />
     <kind value="DIRECTORY" />
-    <package value="github.com/influxdata/telegraf" />
+    <package value="github.com/XenoStar123/telegraf" />
     <directory value="$PROJECT_DIR$/cmd/telegraf" />
     <filePath value="$PROJECT_DIR$" />
     <method v="2" />

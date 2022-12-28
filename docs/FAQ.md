@@ -56,7 +56,7 @@ You can use the following techniques to avoid cardinality issues:
 - Consult the [InfluxDB documentation][influx docs] for the most up-to-date techniques.
 
 [series cardinality]: https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series-cardinality
-[metric filtering]: https://github.com/influxdata/telegraf/blob/master/docs/CONFIGURATION.md#metric-filtering
+[metric filtering]: https://github.com/XenoStar123/telegraf/blob/master/docs/CONFIGURATION.md#metric-filtering
 [retention policy]: https://docs.influxdata.com/influxdb/latest/guides/downsampling_and_retention/
 [tsi]: https://docs.influxdata.com/influxdb/latest/concepts/time-series-index/
 [show cardinality]: https://docs.influxdata.com/influxdb/latest/query_language/spec/#show-cardinality

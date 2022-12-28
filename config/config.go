@@ -24,16 +24,16 @@ import (
 	"github.com/influxdata/toml"
 	"github.com/influxdata/toml/ast"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/aggregators"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/secretstores"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal"
+	"github.com/XenoStar123/telegraf/models"
+	"github.com/XenoStar123/telegraf/plugins/aggregators"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
+	"github.com/XenoStar123/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf/plugins/secretstores"
+	"github.com/XenoStar123/telegraf/plugins/serializers"
 )
 
 var (
@@ -635,7 +635,7 @@ func (c *Config) LoadConfigData(data []byte) error {
 
 // trimBOM trims the Byte-Order-Marks from the beginning of the file.
 // this is for Windows compatibility only.
-// see https://github.com/influxdata/telegraf/issues/1378
+// see https://github.com/XenoStar123/telegraf/issues/1378
 func trimBOM(f []byte) []byte {
 	return bytes.TrimPrefix(f, []byte("\xef\xbb\xbf"))
 }

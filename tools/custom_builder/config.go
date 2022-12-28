@@ -10,7 +10,7 @@ import (
 	"github.com/influxdata/toml"
 	"github.com/influxdata/toml/ast"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/XenoStar123/telegraf/config"
 )
 
 type pluginState map[string]bool

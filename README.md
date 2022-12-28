@@ -3,7 +3,7 @@
 
 ![tiger](assets/TelegrafTiger.png "tiger")
 
-[![Contribute](https://img.shields.io/badge/Contribute%20To%20Telegraf-orange.svg?logo=influx&style=for-the-badge)](https://github.com/influxdata/telegraf/blob/master/CONTRIBUTING.md) [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=for-the-badge)](https://www.influxdata.com/slack) [![Circle CI](https://circleci.com/gh/influxdata/telegraf.svg?style=svg)](https://circleci.com/gh/influxdata/telegraf) [![GoDoc](https://godoc.org/github.com/influxdata/telegraf?status.svg)](https://godoc.org/github.com/influxdata/telegraf) [![Docker pulls](https://img.shields.io/docker/pulls/library/telegraf.svg)](https://hub.docker.com/_/telegraf/) [![Go Report Card](https://goreportcard.com/badge/github.com/influxdata/telegraf)](https://goreportcard.com/report/github.com/influxdata/telegraf)
+[![Contribute](https://img.shields.io/badge/Contribute%20To%20Telegraf-orange.svg?logo=influx&style=for-the-badge)](https://github.com/XenoStar123/telegraf/blob/master/CONTRIBUTING.md) [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=for-the-badge)](https://www.influxdata.com/slack) [![Circle CI](https://circleci.com/gh/influxdata/telegraf.svg?style=svg)](https://circleci.com/gh/influxdata/telegraf) [![GoDoc](https://godoc.org/github.com/XenoStar123/telegraf?status.svg)](https://godoc.org/github.com/XenoStar123/telegraf) [![Docker pulls](https://img.shields.io/docker/pulls/library/telegraf.svg)](https://hub.docker.com/_/telegraf/) [![Go Report Card](https://goreportcard.com/badge/github.com/XenoStar123/telegraf)](https://goreportcard.com/report/github.com/XenoStar123/telegraf)
 
 Telegraf is an agent for collecting, processing, aggregating, and writing metrics. Based on a
 plugin system to enable developers in the community to easily add support for additional
@@ -36,7 +36,7 @@ View the [changelog](/CHANGELOG.md) for the latest updates and changes by versio
 ### Binary Downloads
 
 Binary downloads are available from the [InfluxData downloads](https://www.influxdata.com/downloads)
-page or from each [GitHub Releases](https://github.com/influxdata/telegraf/releases) page.
+page or from each [GitHub Releases](https://github.com/XenoStar123/telegraf/releases) page.
 
 ### Package Repository
 
@@ -80,7 +80,7 @@ An easy option to get bash for windows is using the version that comes with [git
 2. Clone the Telegraf repository:
 
    ```shell
-   git clone https://github.com/influxdata/telegraf.git
+   git clone https://github.com/XenoStar123/telegraf.git
    ```
 
 3. Run `make build` from the source directory

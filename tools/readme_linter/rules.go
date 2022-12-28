@@ -196,7 +196,7 @@ func relativeTelegrafLinks(t *T, root ast.Node) error {
 				continue
 			}
 			link := string(l.Destination)
-			if strings.HasPrefix(link, "https://github.com/influxdata/telegraf/blob") {
+			if strings.HasPrefix(link, "https://github.com/XenoStar123/telegraf/blob") {
 				t.assertNodef(n, "in-repo link must be relative: %s", link)
 			}
 		}

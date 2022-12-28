@@ -1,6 +1,6 @@
 package xpath
 
-import "github.com/influxdata/telegraf/filter"
+import "github.com/XenoStar123/telegraf/filter"
 
 // Config definition for backward compatibility ONLY.
 // We need this here to avoid cyclic dependencies. However, we need

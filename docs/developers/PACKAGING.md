@@ -21,7 +21,7 @@ Incrementing the version is maintained by the core Telegraf team because it requ
 4. Create a pull request with these new changes, and verify the CI passes and
   uses the new docker image
 
-See the [previous PRs](https://github.com/influxdata/telegraf/search?q=chore+update+go&type=commits) as examples.
+See the [previous PRs](https://github.com/XenoStar123/telegraf/search?q=chore+update+go&type=commits) as examples.
 
 ### Access to quay.io
 
@@ -54,8 +54,8 @@ docker run -ti quay.io/influxdb/telegraf-ci:1.9.7 /bin/bash
 
 From within the container:
 
-1. `go get -d github.com/influxdata/telegraf`
-2. `cd /go/src/github.com/influxdata/telegraf`
+1. `go get -d github.com/XenoStar123/telegraf`
+2. `cd /go/src/github.com/XenoStar123/telegraf`
 3. `git checkout release-1.10`
    * Replace tag `release-1.10` with the version of Telegraf you would like to build
 4. `git reset --hard 1.10.2`
@@ -66,5 +66,5 @@ From within the container:
 From the host system, copy the build artifacts out of the container:
 
 ```shell
-docker cp romantic_ptolemy:/go/src/github.com/influxdata/telegraf/build/telegraf-1.10.2-1.x86_64.rpm .
+docker cp romantic_ptolemy:/go/src/github.com/XenoStar123/telegraf/build/telegraf-1.10.2-1.x86_64.rpm .
 ```

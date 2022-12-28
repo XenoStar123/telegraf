@@ -1,4 +1,4 @@
-module github.com/influxdata/telegraf
+module github.com/XenoStar123/telegraf
 
 go 1.19
 

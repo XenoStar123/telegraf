@@ -3,8 +3,8 @@ package models
 import (
 	"sync"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/selfstat"
 )
 
 type RunningProcessor struct {

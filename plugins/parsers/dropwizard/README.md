@@ -19,7 +19,7 @@ pattern][templates]. All field value types are supported, `string`, `number` and
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/XenoStar123/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "dropwizard"
 
   ## Used by the templating engine to join matched values when cardinality is > 1

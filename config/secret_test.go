@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
 	"github.com/awnumar/memguard"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
 	"github.com/stretchr/testify/require"
 )
 

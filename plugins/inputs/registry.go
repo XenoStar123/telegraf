@@ -1,6 +1,6 @@
 package inputs
 
-import "github.com/influxdata/telegraf"
+import "github.com/XenoStar123/telegraf"
 
 type Creator func() telegraf.Input
 

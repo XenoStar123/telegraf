@@ -6,7 +6,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 func init() {

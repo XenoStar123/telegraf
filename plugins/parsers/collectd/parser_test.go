@@ -8,7 +8,7 @@ import (
 	"collectd.org/network"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 type AuthMap struct {

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
 )
 
 type Parser struct {

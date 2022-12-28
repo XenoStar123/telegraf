@@ -14,7 +14,7 @@ and submit new inputs.
 - Input Plugins should call `inputs.Add` in their `init` function to register
   themselves.  See below for a quick example.
 - To be available within Telegraf itself, plugins must register themselves
-  using a file in `github.com/influxdata/telegraf/plugins/inputs/all` named
+  using a file in `github.com/XenoStar123/telegraf/plugins/inputs/all` named
   according to the plugin name. Make sure your also add build-tags to
   conditionally build the plugin.
 - Each plugin requires a file called `sample.conf` containing the sample
@@ -38,8 +38,8 @@ package simple
 import (
     _ "embed"
 
-    "github.com/influxdata/telegraf"
-    "github.com/influxdata/telegraf/plugins/inputs"
+    "github.com/XenoStar123/telegraf"
+    "github.com/XenoStar123/telegraf/plugins/inputs"
 )
 
 //go:embed sample.conf
@@ -81,7 +81,7 @@ Registration of the plugin on `plugins/inputs/all/simple.go`:
 
 package all
 
-import _ "github.com/influxdata/telegraf/plugins/inputs/simple" // register plugin
+import _ "github.com/XenoStar123/telegraf/plugins/inputs/simple" // register plugin
 
 ```
 
@@ -122,7 +122,7 @@ Add the following to the sample configuration in the README.md:
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/XenoStar123/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 ```
 
@@ -154,13 +154,13 @@ about the final delivery status of the metric group.
 
 Check the [amqp_consumer][] for an example implementation.
 
-[exec]: https://github.com/influxdata/telegraf/tree/master/plugins/inputs/exec
-[amqp_consumer]: https://github.com/influxdata/telegraf/tree/master/plugins/inputs/amqp_consumer
+[exec]: https://github.com/XenoStar123/telegraf/tree/master/plugins/inputs/exec
+[amqp_consumer]: https://github.com/XenoStar123/telegraf/tree/master/plugins/inputs/amqp_consumer
 [prom metric types]: https://prometheus.io/docs/concepts/metric_types/
-[input data formats]: https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
-[Sample Config]: https://github.com/influxdata/telegraf/blob/master/docs/developers/SAMPLE_CONFIG.md
-[Code Style]: https://github.com/influxdata/telegraf/blob/master/docs/developers/CODE_STYLE.md
-[telegraf.Input]: https://godoc.org/github.com/influxdata/telegraf#Input
-[telegraf.ServiceInput]: https://godoc.org/github.com/influxdata/telegraf#ServiceInput
-[telegraf.Accumulator]: https://godoc.org/github.com/influxdata/telegraf#Accumulator
-[telegraf.TrackingAccumulator]: https://godoc.org/github.com/influxdata/telegraf#Accumulator
+[input data formats]: https://github.com/XenoStar123/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+[Sample Config]: https://github.com/XenoStar123/telegraf/blob/master/docs/developers/SAMPLE_CONFIG.md
+[Code Style]: https://github.com/XenoStar123/telegraf/blob/master/docs/developers/CODE_STYLE.md
+[telegraf.Input]: https://godoc.org/github.com/XenoStar123/telegraf#Input
+[telegraf.ServiceInput]: https://godoc.org/github.com/XenoStar123/telegraf#ServiceInput
+[telegraf.Accumulator]: https://godoc.org/github.com/XenoStar123/telegraf#Accumulator
+[telegraf.TrackingAccumulator]: https://godoc.org/github.com/XenoStar123/telegraf#Accumulator

@@ -5,10 +5,10 @@ import (
 	_ "embed"
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf/plugins/serializers"
+	"github.com/XenoStar123/telegraf/plugins/serializers/influx"
 )
 
 //go:embed sample.conf

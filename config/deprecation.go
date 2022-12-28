@@ -10,12 +10,12 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"github.com/fatih/color"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/aggregators"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/models"
+	"github.com/XenoStar123/telegraf/plugins/aggregators"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	"github.com/XenoStar123/telegraf/plugins/processors"
 )
 
 // DeprecationInfo contains all important information to describe a deprecated entity

@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
+	"github.com/XenoStar123/telegraf/config"
 )
 
 func TestWriteLogToFile(t *testing.T) {

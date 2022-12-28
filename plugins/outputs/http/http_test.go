@@ -13,17 +13,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	internalaws "github.com/influxdata/telegraf/plugins/common/aws"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/common/oauth"
-	"github.com/influxdata/telegraf/plugins/serializers"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
-	"github.com/influxdata/telegraf/plugins/serializers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/internal"
+	"github.com/XenoStar123/telegraf/metric"
+	internalaws "github.com/XenoStar123/telegraf/plugins/common/aws"
+	httpconfig "github.com/XenoStar123/telegraf/plugins/common/http"
+	"github.com/XenoStar123/telegraf/plugins/common/oauth"
+	"github.com/XenoStar123/telegraf/plugins/serializers"
+	"github.com/XenoStar123/telegraf/plugins/serializers/influx"
+	"github.com/XenoStar123/telegraf/plugins/serializers/json"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 func getMetric() telegraf.Metric {

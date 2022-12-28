@@ -73,7 +73,7 @@ parameters is closely related have a single description.
 Parameters should usually be describable in a few sentences.  If it takes
 much more than this, try to provide a shorter explanation and provide a more
 complex description in the Configuration section of the plugins
-[README](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/example)
+[README](https://github.com/XenoStar123/telegraf/tree/master/plugins/inputs/example)
 
 Boolean parameters should be used judiciously.  You should try to think of
 something better since they don't scale well, things are often not truly

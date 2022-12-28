@@ -10,11 +10,11 @@ import (
 	"github.com/dimchansky/utfbom"
 	"github.com/tidwall/gjson"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/temporary/json_v2"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
+	"github.com/XenoStar123/telegraf/plugins/parsers/temporary/json_v2"
 )
 
 // Parser adheres to the parser interface, contains the parser configuration, and data required to parse JSON

@@ -1,3 +1,5 @@
+
+
 package prometheusremotewrite
 
 import (
@@ -12,8 +14,8 @@ import (
 	"github.com/prometheus/prometheus/prompb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 func TestRemoteWriteSerialize(t *testing.T) {

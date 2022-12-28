@@ -11,7 +11,7 @@ import (
 	"github.com/kardianos/service"
 	"github.com/urfave/cli/v2"
 
-	"github.com/influxdata/telegraf/logger"
+	"github.com/XenoStar123/telegraf/logger"
 )
 
 func cliFlags() []cli.Flag {

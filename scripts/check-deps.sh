@@ -27,7 +27,7 @@ done
 LC_ALL=C sort -u < "${tmpdir}/golist" | while IFS= read -r dep; do
 	case "${dep}" in
 		# ignore ourselves
-		github.com/influxdata/telegraf) continue;;
+		github.com/XenoStar123/telegraf) continue;;
 
 		# go-autorest has a single license for all sub modules
 		github.com/Azure/go-autorest/autorest)

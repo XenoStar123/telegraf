@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/serializers/influx"
 )
 
 type empty struct{}

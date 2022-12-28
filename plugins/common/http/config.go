@@ -8,12 +8,12 @@ import (
 
 	"github.com/benbjohnson/clock"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/cookie"
-	oauthConfig "github.com/influxdata/telegraf/plugins/common/oauth"
-	"github.com/influxdata/telegraf/plugins/common/proxy"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/plugins/common/cookie"
+	oauthConfig "github.com/XenoStar123/telegraf/plugins/common/oauth"
+	"github.com/XenoStar123/telegraf/plugins/common/proxy"
+	"github.com/XenoStar123/telegraf/plugins/common/tls"
 )
 
 // Common HTTP client struct.

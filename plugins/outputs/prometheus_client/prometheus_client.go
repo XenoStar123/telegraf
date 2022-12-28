@@ -16,13 +16,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	v1 "github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v1"
-	v2 "github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v2"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/internal"
+	tlsint "github.com/XenoStar123/telegraf/plugins/common/tls"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	v1 "github.com/XenoStar123/telegraf/plugins/outputs/prometheus_client/v1"
+	v2 "github.com/XenoStar123/telegraf/plugins/outputs/prometheus_client/v2"
 )
 
 //go:embed sample.conf

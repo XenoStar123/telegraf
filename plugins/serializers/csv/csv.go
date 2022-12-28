@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal"
 )
 
 type Serializer struct {

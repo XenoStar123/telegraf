@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/influxdata/telegraf"
-	tgConf "github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/XenoStar123/telegraf"
+	tgConf "github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/plugins/common/tls"
 )
 
 // ReadConfig for kafka clients meaning to read from Kafka.

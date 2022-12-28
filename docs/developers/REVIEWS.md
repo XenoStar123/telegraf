@@ -5,7 +5,7 @@ reviews, non-trivial changes are rarely accepted on the first pass. It might tak
 until you see a first review so please be patient.
 
 All pull requests should follow the style and best practices in the
-[CONTRIBUTING.md](https://github.com/influxdata/telegraf/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/XenoStar123/telegraf/blob/master/CONTRIBUTING.md)
 document.
 
 ## Process
@@ -97,7 +97,7 @@ require.Equal(t, lhs, rhs) # good
 The config file is the primary interface and should be carefully scrutinized.
 
 Ensure the [[SampleConfig]] and
-[README](https://github.com/influxdata/telegraf/blob/master/plugins/inputs/EXAMPLE_README.md)
+[README](https://github.com/XenoStar123/telegraf/blob/master/plugins/inputs/EXAMPLE_README.md)
 match with the current standards.
 
 READMEs should:
@@ -161,7 +161,7 @@ the face of downtime and does not contain a fixed time element.
 
 When metrics are gathered from another host, the metric schema should have a tag
 named "source" that contains the other host's name. See [this feature
-request](https://github.com/influxdata/telegraf/issues/4413) for details.
+request](https://github.com/XenoStar123/telegraf/issues/4413) for details.
 
 The metric schema doesn't need to have a tag for the host running
 telegraf. Telegraf agent code can add a tag named "host" and by default

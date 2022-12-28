@@ -6,7 +6,7 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 type Table struct {

@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/config"
-	_ "github.com/influxdata/telegraf/plugins/inputs/all"
-	_ "github.com/influxdata/telegraf/plugins/outputs/all"
+	"github.com/XenoStar123/telegraf/config"
+	_ "github.com/XenoStar123/telegraf/plugins/inputs/all"
+	_ "github.com/XenoStar123/telegraf/plugins/outputs/all"
 )
 
 func TestAgent_OmitHostname(t *testing.T) {

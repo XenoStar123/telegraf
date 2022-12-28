@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 type LineParser interface {

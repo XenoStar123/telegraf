@@ -16,12 +16,12 @@ import (
 	awsV2 "github.com/aws/aws-sdk-go-v2/aws"
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	internalaws "github.com/influxdata/telegraf/plugins/common/aws"
-	httpconfig "github.com/influxdata/telegraf/plugins/common/http"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal"
+	internalaws "github.com/XenoStar123/telegraf/plugins/common/aws"
+	httpconfig "github.com/XenoStar123/telegraf/plugins/common/http"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	"github.com/XenoStar123/telegraf/plugins/serializers"
 	"golang.org/x/oauth2"
 	"google.golang.org/api/idtoken"
 )

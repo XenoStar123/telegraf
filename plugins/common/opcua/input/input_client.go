@@ -10,10 +10,10 @@ import (
 
 	"github.com/gopcua/opcua/ua"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/choice"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/common/opcua"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/internal/choice"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/plugins/common/opcua"
 )
 
 // NodeSettings describes how to map from a OPC UA node to a Metric

@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 	dto "github.com/prometheus/client_model/go"
 )
 

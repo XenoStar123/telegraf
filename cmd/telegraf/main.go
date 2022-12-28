@@ -10,19 +10,19 @@ import (
 
 	"github.com/urfave/cli/v2"
 
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/internal"
+	"github.com/XenoStar123/telegraf/internal/goplugin"
+	"github.com/XenoStar123/telegraf/logger"
+	_ "github.com/XenoStar123/telegraf/plugins/aggregators/all"
+	"github.com/XenoStar123/telegraf/plugins/inputs"
+	_ "github.com/XenoStar123/telegraf/plugins/inputs/all"
+	"github.com/XenoStar123/telegraf/plugins/outputs"
+	_ "github.com/XenoStar123/telegraf/plugins/outputs/all"
+	_ "github.com/XenoStar123/telegraf/plugins/parsers/all"
+	_ "github.com/XenoStar123/telegraf/plugins/processors/all"
+	_ "github.com/XenoStar123/telegraf/plugins/secretstores/all"
 	"github.com/awnumar/memguard"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/goplugin"
-	"github.com/influxdata/telegraf/logger"
-	_ "github.com/influxdata/telegraf/plugins/aggregators/all"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	_ "github.com/influxdata/telegraf/plugins/inputs/all"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	_ "github.com/influxdata/telegraf/plugins/outputs/all"
-	_ "github.com/influxdata/telegraf/plugins/parsers/all"
-	_ "github.com/influxdata/telegraf/plugins/processors/all"
-	_ "github.com/influxdata/telegraf/plugins/secretstores/all"
 )
 
 type TelegrafConfig interface {

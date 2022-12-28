@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/influxdata/telegraf"
+	"github.com/XenoStar123/telegraf"
 )
 
 // WavefrontSerializer : WavefrontSerializer struct

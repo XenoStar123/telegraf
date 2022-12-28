@@ -3,7 +3,7 @@ package ec2
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

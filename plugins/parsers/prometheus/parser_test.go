@@ -12,9 +12,9 @@ import (
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers/prometheus/common"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/plugins/parsers/prometheus/common"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 const (

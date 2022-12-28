@@ -12,13 +12,13 @@ import (
 	path "github.com/antchfx/xpath"
 	"github.com/doclambda/protobufquery"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/temporary/xpath"
+	"github.com/XenoStar123/telegraf"
+	"github.com/XenoStar123/telegraf/filter"
+	"github.com/XenoStar123/telegraf/internal"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/models"
+	"github.com/XenoStar123/telegraf/plugins/parsers"
+	"github.com/XenoStar123/telegraf/plugins/parsers/temporary/xpath"
 )
 
 type dataNode interface{}

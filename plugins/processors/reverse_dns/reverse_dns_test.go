@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/XenoStar123/telegraf/metric"
+	"github.com/XenoStar123/telegraf/testutil"
 )
 
 func TestSimpleReverseLookupIntegration(t *testing.T) {

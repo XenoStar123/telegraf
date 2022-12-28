@@ -61,4 +61,4 @@ execd plugins:
 
 You've done it! Consider publishing your plugin to github and open a Pull Request
 back to the Telegraf repo letting us know about the availability of your
-[external plugin](https://github.com/influxdata/telegraf/blob/master/EXTERNAL_PLUGINS.md).
+[external plugin](https://github.com/XenoStar123/telegraf/blob/master/EXTERNAL_PLUGINS.md).

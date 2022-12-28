@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/processors/reverse_dns"
+	"github.com/XenoStar123/telegraf/config"
+	"github.com/XenoStar123/telegraf/plugins/processors/reverse_dns"
 	"github.com/stretchr/testify/require"
 )
 
